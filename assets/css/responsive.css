@@ -1,0 +1,149 @@
+/* MOBILE */
+@media (max-width: 640px){
+    /* MENU */
+
+    .img-banner{
+      height: 520px;
+     }
+   
+      /* SOBRE */
+    .professores{
+      align-items: center;
+      }
+    .principal{
+      flex-wrap: wrap;
+      padding: 30px 10px;
+      }
+    .professor{
+      display: flex;
+      flex-direction: column-reverse;
+      align-content: center
+
+      }
+    .home-img{
+      width: 280;
+      height: 280px;
+      }
+
+      /* FORMULARIO */
+    .input-padrao{
+      width: 80%;
+      }
+
+    .botao-vermelho{
+      width: 80%;
+      }
+
+      /* DÚVIDAS */
+    .acordeon {
+      width: 80%;
+      margin: 10%;
+              
+    }
+    .acordeon .ilustracao{
+      display: none;
+    }
+    .acordeon .conteudo{
+      width: 80%;
+      padding-left: 10px;
+    }
+    .acordeon .conteudo h1{
+      font-size: 20px;
+    }
+
+    .acordeon .items .item .pergunta, .resposta, .acordeon .items .item.ativo h2{
+      font-size: 16px;
+    }
+
+      /* PRIVACIDADE */
+
+    #privacidade{
+      padding: 1em;
+    }
+      /* RODAPÉ */
+    .links, .redes{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    /* REGISTRAR-SE */
+    .background{
+      display: none;
+    }
+    .titulo-form{
+        padding-top: 10%;
+    }
+    .form-registrar{
+    margin: 0%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+    }
+    .form-registrar label{
+      display: flex;
+      justify-content: center;
+    }
+    .input-registro{
+      width: 80%;
+      margin-left: 6%;
+        
+        
+    }
+    .button-login{
+      margin-top: 2em;
+      margin-bottom: 10%;
+      width: 70%;
+    }
+
+    /* LOGIN */
+    #login{
+      flex-direction: row;
+      justify-content: center;
+
+    }
+    .color{
+      display: none;
+    }
+    .form-login{
+      text-align: center;
+      margin-top: 10%;
+    }
+    .input-login{
+      width: 90%;
+    }
+}
+/* TABLET */
+
+@media(min-width: 769px){
+
+
+    /* CURSOS */
+  
+    .menu__container {
+      left: 0;
+      height: 100%;
+      width: 74px;
+        
+    }
+    .menu__lista {
+      flex-direction: column;
+      justify-content: flex-start;
+      padding-top: 15px;
+      gap: 40px;
+    }
+
+    .videos__container {
+      padding-left: 90px;
+      padding-right: 17px;
+    }
+
+    .videos__item:hover {
+      transform: scale(1.2);
+    }
+
+}
+
+
+    
